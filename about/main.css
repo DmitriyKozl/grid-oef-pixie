@@ -11,19 +11,33 @@ body
     margin: 0px;
     font-size: 16px;
 }
+.Header-innerLogo{
+    padding-top: 0.5rem;
+
+}
 .Header-inner
  {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+    border-bottom: 1px solid lightgray;
+
 }
-
-
-
 .Header-nav
 {
 display: none;
 list-style: none;
+}
+.line{
+  width: 2rem;
+  height: 0.2rem;
+  background-color: white;
+  margin: 0.3rem 0;
+}
+.Header-hamburger{
+   background-color:rgb(97, 136, 209) ;
+   padding: 0.5rem;
+   border-radius: 5px;
+
 
 }
-
