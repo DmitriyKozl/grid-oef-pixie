@@ -1,20 +1,19 @@
-img.image{
-    width: 100%;
-    height:auto;
-}
+/* headers and paragraphs */
 
 h3{
     
     margin: 0.5rem 2rem 2rem 0 ;
 }
-
+p{
+    margin-bottom: 1rem;
+}
 .line.one{
     border-top: 5px solid rgb(97, 136, 209);
 }
 
-p{
-    margin-bottom: 1rem;
-}
+
+
+/* main */
 
 .Main-text, .Main-imageContent, .Media{
     margin: 0 2rem;
@@ -32,6 +31,8 @@ p{
 .Media-inner{
     display: flex;
 }
+
+/* logos */
 .fa {
     padding: 0.8rem;
     font-size: 2rem;
@@ -42,3 +43,9 @@ p{
     color: white;
     border-radius: 50%;
   }
+/* images */
+
+img.image{
+    width: 100%;
+    height:auto;
+}
