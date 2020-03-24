@@ -28,21 +28,8 @@ p{
     color: rgb(97, 136, 209) ;
 }
 
-.Media-inner{
-    display: flex;
-}
 
-/* logos */
-.fa {
-    padding: 0.8rem;
-    font-size: 2rem;
-    text-align: center;
-    text-decoration: none;
-    margin: 0.8rem 0.3rem;
-    background-color: lightgray;
-    color: white;
-    border-radius: 50%;
-  }
+
 /* images */
 
 img.image{
