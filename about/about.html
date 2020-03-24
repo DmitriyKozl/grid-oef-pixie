@@ -7,6 +7,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
     <header class="Header">
@@ -15,9 +17,9 @@
             <img class="Header-logo" src="Header-logo.png" alt="logo">
         </div>
         <div class="Header-hamburger">         
-    <div class="line"></div>
-    <div class="line"></div>
-    <div class="line"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
         </div>
         <ul class="Header-nav">
 
@@ -32,31 +34,50 @@
     </header>
 
 <main class="Main">
-    <section class="Main-image">
+    <section class="Main-imageContent">
+        <hr align="left" width="10%" class="line one">
         <h3>About us</h3>
-        <img src="about-us.jpg" alt="picture of hoomans">
+        <div class="Main-image">
+        <img class="image" src="about-us.jpg" alt="picture of hoomans">
+    </div>
     </section>
     <section class="Main-text">
-        <h2>Phasselus vel interdum elit</h2>
-        <p></p>
+        <h3>Phasselus vel interdum elit</h3>
+       <p> <a class="Main-textLink" href="#">Photo Credit</a>  goes to Pexels website. Aliquam erat volutpat.
+        Pellentesque fringilla, ligula consectetur cursus scelerisque, leo el pellentesque sapien, et pharetra arcu elit vitae sem. Suspendisse erat dui, condimentum in mi ac, varius tempor sapien. Donec in justo sit amet ex aliquet maximus ac quis erat.</p>
+        
+        <p> Donec fermentum tincidunt tellus quis fermentum. Proin eget imperdiet purus. Nulla facilisi. Aliquam tincidunt porttitor dui sed euismod. Duis est libero, rhoncus fermentum turpis id, tempus fringilla ipsum. Nullam venenatis tincidunt neque vel hendrerit.
+        Suspendisse porta pretium porttitor.</p>
+        
+        <p> Sed purus quam ultricies eu leo in, sollicitudin varius quam. Proin dictum urna ac diam fermentum tempus. Pellentesque urna urna, ullamcorper a tincidunt dignissim, venenatis in nisi. Vivamus in
+        volutpat tellus. Etiam fermentum luctus posuere.</p>
+        
+        <p>  <a class="Main-textLink" href="#">Pixie HTML Template</a> can be converted into your desired CMS theme. You can use this Bootstrap v4.1.3 layout for any online shop.
+        Please tell your friends about <a class="Main-textLink" href="#">tooplate</a>. Thank you.</p>
+        
     </section>
     <div class="Media">
         <div class="Media-inner">
-            <p></p>
+        <div><p>find us on:</p></div>
             <div class="Media-logos">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
             </div>
         </div>
     </div>
     <section class="Subscribe">
-        <hr>
-        <h2></h2>
-        <p></p>
+        <hr align="center" width="10%" class="line two">
+        <h2>subscribe on Pixie now</h2>
+        <p>Godard four dollar toast prism, authentic heirloom raw denim messenger bag gochujang put a bird on it celiac readymade vice.</p>
+        <div class="Subscribe-container">
         <form>
             <label form="email"></label>
             <input type="text" id="fname" email="email" value="your email..."><br>
           </form>
-        <div class="Subscribe-button">subscribe</div>
-    </section>
+        <div class="Subscribe-button"><a href="#">Subscribe now!</a></div>
+    </div>
+</section>
 </main>
     <footer class="Footer">
         <div class="Footer-logo">
@@ -64,13 +85,20 @@
         </div>
         <ul class="Footer-nav">
 
-            <li>  <a class="Footer-navItem" href=""></a></li>
-            <li>  <a class="Footer-navItem" href=""></a></li>
-            <li>  <a class="Footer-navItem" href=""></a></li>
-            <li>  <a class="Footer-navItem" href=""></a></li>
-    
+            <li>  <a class="Footer-navItem" href="">home</a></li>
+            <li>  <a class="Footer-navItem" href="">Help</a></li>
+            <li>  <a class="Footer-navItem" href="">privacy policy</a></li>
+            <li>  <a class="Footer-navItem" href="">how it works ?</a></li>
+            <li>  <a class="Footer-navItem" href="">contact us</a></li>
+
         </ul>
-        <div class="Footer-logos"></div>
+        <div class="Footer-logos">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+
+        </div>
 
     </footer>
 </body>

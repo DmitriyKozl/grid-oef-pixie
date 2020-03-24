@@ -1,0 +1,44 @@
+img.image{
+    width: 100%;
+    height:auto;
+}
+
+h3{
+    
+    margin: 0.5rem 2rem 2rem 0 ;
+}
+
+.line.one{
+    border-top: 5px solid rgb(97, 136, 209);
+}
+
+p{
+    margin-bottom: 1rem;
+}
+
+.Main-text, .Main-imageContent, .Media{
+    margin: 0 2rem;
+
+}
+.Main-text{
+    border-bottom: 0.5px solid lightgray;
+}
+
+.Main-textLink{
+    text-decoration: none;
+    color: rgb(97, 136, 209) ;
+}
+
+.Media-inner{
+    display: flex;
+}
+.fa {
+    padding: 0.8rem;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.8rem 0.3rem;
+    background-color: lightgray;
+    color: white;
+    border-radius: 50%;
+  }
