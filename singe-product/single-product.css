@@ -1,0 +1,56 @@
+.Order-button a {
+    text-decoration: none;
+    color: white;
+}
+img.image{
+    width: 100%; 
+}
+.Main-image, .Single-Products{
+    border: 1px solid lightslategray;
+    padding: 1rem;
+    border-radius: 5px; 
+    
+}
+h3{
+    
+    margin: 0.5rem 2rem 2rem 0 ;
+}
+p{
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color:  rgb(97, 136, 209)
+
+}
+.line.one{
+    border-top: 5px solid rgb(97, 136, 209);
+}
+
+.Single-Products{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+   
+}
+
+.Single-ProductsThumb{
+    grid-column: 1 / span 2;
+}
+.Single-ProductsThumbTwo
+{
+    width: 95%;
+    justify-self: right;
+
+}
+.Single-ProductsThumb{
+       width: 100%;
+    padding: 0.5rem;
+    justify-self: center;
+}
+.Single-ProductsItem
+{
+    width: 95%;
+    justify-self: left;
+
+
+}
+

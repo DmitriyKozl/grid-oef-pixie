@@ -1,0 +1,134 @@
+html
+{
+    height: 100%;
+
+}
+body
+ {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    background-color: white;
+    margin: 0px;
+    font-size: 16px;
+}
+/* header */
+.Header-innerLogo{
+    padding-top: 0.5rem;
+
+}
+.Header-inner
+ {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid lightgray;
+
+}
+.Header-nav
+{
+display: none;
+list-style: none;
+}
+.bar{
+  width: 2rem;
+  height: 0.2rem;
+  background-color: white;
+  margin: 0.3rem 0;
+}
+.Header-hamburger{
+   background-color:rgb(97, 136, 209) ;
+   padding: 0.5rem;
+   border-radius: 5px;
+
+
+}
+
+/* paragraphs and headers */
+p{
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+/* main */
+main{
+    padding:  4rem 0;
+}
+.Main-text,
+.Main-imageContent,
+.Media, 
+.Form,
+.Banner-inner,
+.Product{
+ margin: 0 2rem 2rem;
+
+}
+
+.Subscribe{
+    text-align: center;
+    color: white;
+    background-color: rgb(97, 136, 209);
+    padding: 4rem 1rem;
+    margin-top: 4rem;
+}
+.line.two{
+    border-top:  solid white;
+    border-radius: 2px;
+}
+
+
+.Subscribe-button{
+    margin: 0 1rem 1rem;
+    font-size: 1.5rem;
+   
+    background-color: white;
+    border-radius: 5px;
+    padding: .5rem;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(97, 136, 209) ;
+}
+.Sub-email{
+    padding: 0.5rem;
+    width: 90%;
+    height: 2rem;
+    margin-bottom: 2rem;
+    border:0.5px solid white  ;
+    font-size: 1.5rem;
+    color: white ;
+    background-color: rgb(97, 136, 209);
+    border-radius: 5px;
+}
+
+/* footer */
+
+.Footer-nav, li{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.Footer{
+text-align: center;
+margin: 0 2rem;
+padding: 2rem 0;
+}
+
+.Footer-navItem{
+    text-decoration: none;
+    padding:0 0.5rem;
+    color: lightgrey;
+}
+.fa{
+    padding: 0.8rem;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.8rem 0.3rem;
+    background-color: lightgray;
+    color: white;
+    border-radius: 50%;
+  }
+  
