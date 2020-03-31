@@ -55,7 +55,6 @@ main{
 }
 .Main-text,
 .Main-imageContent,
-.Media, 
 .Form,
 .Banner-inner,
 .Product{
@@ -126,7 +125,7 @@ padding: 2rem 0;
     font-size: 2rem;
     text-align: center;
     text-decoration: none;
-    margin: 0.8rem 0.3rem;
+    margin: 0.8rem 0 0.8rem 0.8rem;
     background-color: lightgray;
     color: white;
     border-radius: 50%;

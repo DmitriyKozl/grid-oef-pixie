@@ -16,6 +16,10 @@ h3{
     margin: 0.5rem 2rem 2rem 0 ;
 }
 p{
+    font-weight: 300;
+    line-height: 2;
+}
+.price,.left{
     margin-bottom: 1rem;
     font-weight: 600;
     color:  rgb(97, 136, 209)
@@ -54,3 +58,32 @@ p{
 
 }
 
+.Order-button{
+    background-color: rgb(97, 136, 209);
+    padding: .5rem;
+    border-radius: 5px;
+    width: 5rem;
+    height: 2rem;
+    margin-top: 1rem;
+
+}
+.Quantity-Number
+{
+    width: 2rem;
+    padding: 0.5rem;
+    height: 2rem;
+    margin: 1rem;
+    border:0.3px solid gray;
+    
+}
+
+.Quantity{
+    display: flex;
+    border-bottom:0.3px solid rgb(190, 190, 190);
+
+}
+
+.Media-inner{
+    display: flex;
+
+}
