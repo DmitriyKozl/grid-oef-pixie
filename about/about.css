@@ -36,3 +36,32 @@ img.image{
     width: 100%;
     height:auto;
 }
+
+@media screen and (min-width:900px)
+{
+    .grid-sections
+    {
+        margin-bottom: 6rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr auto;
+    }
+    .Media
+    {    grid-column: 2
+
+
+    }
+    .Main-text{
+        margin-top: 4rem;
+    }
+}
+
+
+    @media screen and (min-width: 1800px){
+
+    .grid-sections {
+        margin: 0 10rem;
+    }
+
+   
+}
