@@ -69,7 +69,7 @@ main{
     border-radius: 2px;
 }
 
-input{
+.Sub-email{
     width: 90%;
     height: 2rem;
     margin-bottom: 2rem;
@@ -83,7 +83,6 @@ input{
 .Subscribe-button{
     margin: 0 1rem 1rem;
     font-size: 1.5rem;
-   
     background-color: white;
     border-radius: 5px;
     padding: .5rem;
@@ -92,9 +91,6 @@ input{
 a{
     text-decoration: none;
     color: rgb(97, 136, 209) ;
-}
-#fname{
-    padding: 0.5rem;
 }
 
 /* footer */
@@ -151,7 +147,7 @@ padding: 2rem 0;
         justify-content: space-between;
     }
     .Subscribe-button{
-       width: 25%;
+       width: 50%;
        height: 2rem;
     }
 }

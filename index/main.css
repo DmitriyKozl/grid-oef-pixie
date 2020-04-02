@@ -69,7 +69,7 @@ main{
     border-radius: 2px;
 }
 
-input{
+.Sub-email{
     width: 90%;
     height: 2rem;
     margin-bottom: 2rem;
@@ -93,9 +93,7 @@ a{
     text-decoration: none;
     color: rgb(97, 136, 209) ;
 }
-#fname{
-    padding: 0.5rem;
-}
+
 
 /* footer */
 
