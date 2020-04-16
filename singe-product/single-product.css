@@ -7,7 +7,7 @@ img.image{
 }
 .Main-image, .Single-Products{
     border: 1px solid lightslategray;
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 5px; 
     
 }
@@ -86,4 +86,66 @@ p{
 .Media-inner{
     display: flex;
 
+}
+
+.Main-image.Flex{
+    display: none;
+}
+@media screen and (min-width:900px)
+{
+    .Main-imageFlexContainer{
+    display: flex;
+    justify-content: center;
+    }
+    .Main-image.Flex.small{
+    display: unset;
+    }
+
+    .Main-image{
+       margin:  0 1rem 1rem 0;
+        
+    }
+  
+}
+@media screen and (min-width:900px)
+{
+    .Main-imageFlexContainer{
+    display: flex;
+    justify-content: space-evenly;
+    }
+    .Main-image.Flex.big{
+    display: unset;
+    }
+   } 
+@media screen and (min-width:900px)
+{
+    .grid-sections
+    {
+        margin-bottom: 6rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr auto;
+        
+    }
+    .Media
+    {    grid-column: 2
+
+
+    }
+    .Product,.Main-imageContent
+    {
+margin: 0 3rem;
+    }
+    .Single-Products{
+        margin-right: 2rem;
+    }
+
+
+}
+@media screen and (min-width:1800px)
+{
+  
+.grid-sections {
+    margin: 0 6rem 6rem;
+}
 }

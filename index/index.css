@@ -7,20 +7,25 @@ h3{
 p{
     margin-bottom: 1rem;
 }
+.price{
+    font-weight: 400;
+    color:  rgb(97, 136, 209);
+}
 .line.one{
     border-top: 5px solid rgb(97, 136, 209);
 }
 .Banner{
     background-image: url(banner-bg.jpg);
     background-repeat: no-repeat;
-    background-size: fit;
     background-position: center;
-    padding: 2rem 2rem;
+    padding: 6rem 1.5rem 6rem 1.5rem;
+    background-size: cover;
 
 }
 .Banner-inner{
     background-color: rgba(253, 254, 255, 0.74);
-    padding:1rem
+    padding:1rem;
+    font-size: 0.9rem;
 }
 .Order-button{
     font-size: 1.5rem;
@@ -37,7 +42,54 @@ img.image{
     width: 100%; 
 }
 .Main-image{
-    border: 1px solid lightslategray;
+    border: 1px solid rgb(216, 216, 216);
     padding: 1rem;
     
 }
+
+.Main-image.Flex{
+    display: none;
+}
+@media screen and (min-width:900px)
+{
+    .Main-imageFlexContainer{
+    display: flex;
+    justify-content: center;
+    }
+    .Main-image.Flex.small{
+    display: unset;
+    }
+
+    .Main-image{
+       margin: 2rem;
+        
+    }
+    .Banner{
+        padding: 4rem ;
+    }
+    .Banner-inner{
+        width: 50%;
+        margin: 7rem;
+}
+}
+@media screen and (min-width:900px)
+{
+    .Main-imageFlexContainer{
+    display: flex;
+    justify-content: center;
+    }
+    .Main-image.Flex.big{
+    display: unset;
+    }
+
+    .Banner-inner{
+        width: 25%;
+}
+.Main-imageContent{
+    margin: 0 20rem;
+}
+}
+
+
+
+

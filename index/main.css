@@ -39,7 +39,7 @@ list-style: none;
    background-color:rgb(97, 136, 209) ;
    padding: 0.5rem;
    border-radius: 5px;
-
+   margin: 0 10rem;
 
 }
 
@@ -56,6 +56,10 @@ p{
 /* main */
 main{
     padding:  4rem 0;
+}
+.Main-text, .Main-imageContent, .Media{
+    margin: 0 2rem;
+
 }
 .Subscribe{
     text-align: center;
@@ -83,7 +87,6 @@ main{
 .Subscribe-button{
     margin: 0 1rem 1rem;
     font-size: 1.5rem;
-   
     background-color: white;
     border-radius: 5px;
     padding: .5rem;
@@ -93,7 +96,6 @@ a{
     text-decoration: none;
     color: rgb(97, 136, 209) ;
 }
-
 
 /* footer */
 
@@ -149,7 +151,7 @@ padding: 2rem 0;
         justify-content: space-between;
     }
     .Subscribe-button{
-       width: 25%;
+       width: 50%;
        height: 2rem;
     }
 }

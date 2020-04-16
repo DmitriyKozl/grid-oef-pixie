@@ -32,5 +32,27 @@ padding: 0 0 2rem 0;
     text-decoration: none;
     color: black;
     font-weight: 600;
+    padding: 1rem;
     
 }
+
+@media screen and (min-width:900px)
+{
+    .Main-ImageNavFlex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .Main-imageNav{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0;
+        }
+    .MainImageFlex{
+        display: flex;
+        justify-content: center;
+    }
+    .Main-image{
+        margin: 1rem;
+
+    }
+    }
